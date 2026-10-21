@@ -1,1 +1,1 @@
-https://github.com/NadezhdaParfentyeva/ono-tebe-nado
+git@github.com:NadezhdaParfentyeva/ono-tebe-nado-fd.git
