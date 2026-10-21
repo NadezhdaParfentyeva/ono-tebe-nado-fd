@@ -27,7 +27,7 @@
     text-decoration: none;
     list-style-type: none;
 }
-.menu_link { 
+.menu_link {
     align-self: self-start;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -42,7 +42,7 @@
     margin-bottom: 3px;
     margin-left: 3px;
 }
-.address {  
+.address {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 24.3px;
@@ -196,7 +196,6 @@
     box-sizing: border-box;
     padding: 48px 40px;
     z-index: 2;
-    box-sizing: border-box;
 }
 .card {
     flex: 1;
