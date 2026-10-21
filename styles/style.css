@@ -4,7 +4,7 @@
     width: 1100px;
     height: 293px;
     align-items: center;
-    gap: 32px;
+    gap: 25px;
     margin: 0 auto; 
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
@@ -12,14 +12,17 @@
 .header__menu {
     grid-column: 1;
     display: flex; 
+    width: 391.48px;
+    height: 22px;
     align-items: center;
     margin-left: 50px;
+
 }
 .header__links-list {
     display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 32px;
+    align-self: flex-start;
+    gap: 35px;
+    
     color: #001;
 }
 .links-list-item_no-bullit {
@@ -27,8 +30,10 @@
     list-style-type: none;
 }
 .menu_link { 
-    font-style: normal;
+    align-self: self-start;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px; 
+    font-weight: normal;
     text-decoration: underline;
     list-style-type: circle;
 }
@@ -43,7 +48,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 24.3px;
-    font-style: normal;
+    font-weight: normal;
 }
 .header__address {
     grid-column: 3;
@@ -52,6 +57,7 @@
     height: 98px;
     margin: 95px 50px 100px 154px;
     padding-bottom: 3px;
+    align-items: self-start;
     font-family: 'Raleway', sans-serif;
     border-width: 1px;
 }
